@@ -22,14 +22,16 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 3. Create nodes in the blueprint and use
 
-   ![II.png](https://github.com/YQX113/USQL/blob/main/Image/Installation/II.png)
+![II.png](https://github.com/YQX113/USQL/blob/main/Image/Installation/II.png)
 
 ![III.png](https://github.com/YQX113/USQL/blob/main/Image/Installation/III.png)
 
 
 
 ## Complete blueprint nodes
-（The image is too large and the preview may not display properly. Please download and watch it）
+1. The image is too large and the preview may not display properly. Please download and watch it
+
+2. Blueprint Node Path：`Content\ThirdPerson\Blueprints`
 
 ![BP_I.png](https://github.com/YQX113/USQL/blob/main/Image/Complete%20blueprint%20nodes/BP_I.png)
 
@@ -52,3 +54,5 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 3、Please strictly follow the naming rules set by MariaDB official
 
 https://mariadb.com/docs/server/reference/sql-structure/sql-language-structure/identifier-names
+
+4、One connection corresponds to one thread. If you need to perform parallel queries, please use the "Create USql Object" node to create a new connection for querying.
