@@ -2,7 +2,7 @@
 
 USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
-![HighresScreenshot_2026.02.22-22.45.11](F:\AboutCG\AboutCG_UE4 Light\StageLights 4.24\Saved\Screenshots\WindowsEditor\HighresScreenshot_2026.02.22-22.45.11.png)
+![HighresScreenshot_2026.02.22-22.45.11](https://github.com/YQX113/USQL/blob/main/Image/HighresScreenshot_2026.02.22-22.45.11.png)
 
 ------
 
