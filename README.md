@@ -28,7 +28,8 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 
 
-## Complete blueprint nodes（The image is too large and the preview may not display properly. Please download and watch it）
+## Complete blueprint nodes
+（The image is too large and the preview may not display properly. Please download and watch it）
 
 ![BP_I.png](https://github.com/YQX113/USQL/blob/main/Image/Complete%20blueprint%20nodes/BP_I.png)
 
