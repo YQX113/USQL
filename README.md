@@ -31,18 +31,6 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 <br>
 
-## Complete blueprint nodes
-
-1. Blueprint Node Path：`..\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter`
-   
-2. The image is too large and the preview may not display properly. Please download and watch it
-
-![BP_I.png](https://github.com/YQX113/USQL/blob/df51479d5d8c8cdaba8cdcabc55b51ac73e93fe3/Image/Complete%20blueprint%20nodes/BP_I.png)
-
-![BP_II.png](https://github.com/YQX113/USQL/blob/f661ba3f0ca3c6ada6f5231b2adf69f8fbe28fdd/Image/Complete%20blueprint%20nodes/BP_II.png)
-
-<br>
-
 ## Node Annotation
 
 1.CreateUSQLObject
@@ -58,6 +46,18 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 ![usql_I.png](Image/Note/usql_I.png)
 ![usql_II.png](Image/Note/usql_II.png)
 ![usql_III.png](Image/Note/usql_III.png)
+
+## Complete blueprint nodes
+
+1. Blueprint Node Path：`..\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter`
+   
+2. The image is too large and the preview may not display properly. Please download and watch it
+
+![BP_I.png](https://github.com/YQX113/USQL/blob/df51479d5d8c8cdaba8cdcabc55b51ac73e93fe3/Image/Complete%20blueprint%20nodes/BP_I.png)
+
+![BP_II.png](https://github.com/YQX113/USQL/blob/f661ba3f0ca3c6ada6f5231b2adf69f8fbe28fdd/Image/Complete%20blueprint%20nodes/BP_II.png)
+
+<br>
 
 -----
 > [!NOTE]
