@@ -16,11 +16,14 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 ## Installation
 
-1. Copy plugin to:`YourProject/Plugins`
+1. Ensure MariaDB has been downloaded and installed, and the service is running.
+   https://mariadb.org/download/?t=mariadb&p=mariadb&r=12.2.2&os=windows&cpu=x86_64&pkg=msi&mirror=xtom_fre
 
-2. Enable USQL plugin in the plugin list![I.png](https://github.com/YQX113/USQL/blob/main/Image/Installation/I.png)
+4. Copy plugin to:`YourProject/Plugins`
 
-3. Create nodes in the blueprint and use
+5. Enable USQL plugin in the plugin list![I.png](https://github.com/YQX113/USQL/blob/main/Image/Installation/I.png)
+
+6. Create nodes in the blueprint and use
 
 ![II.png](https://github.com/YQX113/USQL/blob/main/Image/Installation/II.png)
 
@@ -42,6 +45,8 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 ## Note
 
+1、CreateUSQLObject
+![usql_I.png](Image/Note/CreateUSQLObject.png)
 1、Stmt
 
 ![usql_I.png](https://github.com/YQX113/USQL/blob/main/Image/Note/usql_I.png)
@@ -50,10 +55,12 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 ![usql_III.png](https://github.com/YQX113/USQL/blob/main/Image/Note/usql_III.png)
 
-2、Both sending and receiving data use utf8mb4 encoding
+2、
 
-3、Please strictly follow the naming rules set by MariaDB official
+3、、Both sending and receiving data use utf8mb4 encoding
+
+4、Please strictly follow the naming rules set by MariaDB official
 
 https://mariadb.com/docs/server/reference/sql-structure/sql-language-structure/identifier-names
 
-4、One connection corresponds to one thread. If you need to perform parallel queries, please use the "Create USql Object" node to create a new connection for querying.
+5、One connection corresponds to one thread. If you need to perform parallel queries, please use the "Create USql Object" node to create a new connection for querying.
