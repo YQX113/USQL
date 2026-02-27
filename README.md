@@ -43,24 +43,25 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 <br>
 
-## Note
+## Node Annotation
 
 1、CreateUSQLObject
-![usql_I.png](Image/Note/CreateUSQLObject.png)
-1、Stmt
+![CreateUSQLObject.png](Image/Note/CreateUSQLObject.png)
 
-![usql_I.png](https://github.com/YQX113/USQL/blob/main/Image/Note/usql_I.png)
+2、SELECT
+![SELECT.png](Image/Note/SELECT.png)
 
-![usql_II.png](https://github.com/YQX113/USQL/blob/main/Image/Note/usql_II.png)
+3、Stmt
+![usql_I.png](Image/Note/usql_I.png)
+![usql_II.png](Image/Note/usql_II.png)
+![usql_III.png](Image/Note/usql_III.png)
 
-![usql_III.png](https://github.com/YQX113/USQL/blob/main/Image/Note/usql_III.png)
+4、Query
+![Query+Res.png](Image/Note/Query+Res.png)
 
-2、
-
-3、、Both sending and receiving data use utf8mb4 encoding
-
-4、Please strictly follow the naming rules set by MariaDB official
-
-https://mariadb.com/docs/server/reference/sql-structure/sql-language-structure/identifier-names
-
-5、One connection corresponds to one thread. If you need to perform parallel queries, please use the "Create USql Object" node to create a new connection for querying.
+-----
+> [!NOTE]
+> · Both sending and receiving data use utf8mb4 encoding \
+> · Please strictly follow the naming rules set by MariaDB official \
+>   https://mariadb.com/docs/server/reference/sql-structure/sql-language-structure/identifier-names \
+> · One connection corresponds to one thread. If you need to perform parallel queries, please use the "Create USql Object" node to create a new connection for querying.
