@@ -19,11 +19,11 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 1. Ensure MariaDB has been downloaded and installed, and the service is running.
    https://mariadb.org/download/?t=mariadb&p=mariadb&r=12.2.2&os=windows&cpu=x86_64&pkg=msi&mirror=xtom_fre
 
-4. Copy plugin to:`YourProject/Plugins`
+2. Copy plugin to:`YourProject/Plugins`
 
-5. Enable USQL plugin in the plugin list![I.png](https://github.com/YQX113/USQL/blob/main/Image/Installation/I.png)
+3. Enable USQL plugin in the plugin list![I.png](https://github.com/YQX113/USQL/blob/main/Image/Installation/I.png)
 
-6. Create nodes in the blueprint and use
+4. Create nodes in the blueprint and use (Complete blueprint nodes_CreateUSQLObject)
 
 ![II.png](https://github.com/YQX113/USQL/blob/main/Image/Installation/II.png)
 
@@ -45,19 +45,19 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 ## Node Annotation
 
-1、CreateUSQLObject
+1.CreateUSQLObject
 ![CreateUSQLObject.png](Image/Note/CreateUSQLObject.png)
 
-2、SELECT
+2.SELECT
 ![SELECT.png](Image/Note/SELECT.png)
 
-3、Stmt
+3.Query
+![Query+Res.png](Image/Note/Query+Res.png)
+
+4.Stmt
 ![usql_I.png](Image/Note/usql_I.png)
 ![usql_II.png](Image/Note/usql_II.png)
 ![usql_III.png](Image/Note/usql_III.png)
-
-4、Query
-![Query+Res.png](Image/Note/Query+Res.png)
 
 -----
 > [!NOTE]
