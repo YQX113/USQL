@@ -20,18 +20,18 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
    
    This plugin requires the MariaDB Connector/C client library to communicate with MySQL/MariaDB databases.
 
-   >Download MariaDB Connector/C from the official website:
+   1.1 Download MariaDB Connector/C from the official website:
     https://mariadb.com/downloads/connectors/connectors-data-access/c/
 
-   >Install the connector (64-bit version).
+   1.2 Install the connector (64-bit version).
 
-   >After installation, locate the following directories (example):
-    C:\Program Files\MariaDB\lib
+   1.3 After installation, locate the following directories (example):
+   >C:\Program Files\MariaDB\lib
     C:\Program Files\MariaDB\lib\plugin
 
-   >Add the above directories to your system PATH environment variable.
+   1.4 Add the above directories to your system PATH environment variable.
    
-   >Restart Unreal Engine after modifying the PATH variable.
+   1.5 Restarting the computer or Unreal Engine may be required for environment variable changes to take effect.
    
 3. Copy plugin to:`YourProject/Plugins`
 
