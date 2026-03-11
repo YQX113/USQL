@@ -5,6 +5,12 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 ![HighresScreenshot_2026.02.22-22.45.11](Image/HighresScreenshot_2026.02.22-22.45.11.png)
 
 ------
+## License Notice
+MariaDB Connector/C is not distributed with this plugin.
+
+Users must install MariaDB Connector/C separately in order to use database functionality.
+
+<br>
 
 ## Supported Versions
 
@@ -16,7 +22,7 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 ## Installation
 
-1. Install MariaDB Connector/C (Required)
+### 1. Install MariaDB Connector/C (Required)
    
    This plugin requires the MariaDB Connector/C client library to communicate with MySQL/MariaDB databases.
 
@@ -25,20 +31,19 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
    1.2 Install the connector (64-bit version).
 
-   1.3 After installation, locate the following directories (example):
-   >C:\Program Files\MariaDB\lib
-   
-   >C:\Program Files\MariaDB\lib\plugin
+   1.3 After installation, locate the following directories (example): \
+     `C:\Program Files\MariaDB\lib` \
+     `C:\Program Files\MariaDB\lib\plugin`
 
    1.4 Add the above directories to your system PATH environment variable.
    
    1.5 Restarting the computer or Unreal Engine may be required for environment variable changes to take effect.
    
-3. Copy plugin to:`YourProject/Plugins`
+### 2. Copy plugin to:`YourProject/Plugins`
 
-4. Enable USQL plugin in the plugin list![I.png](Image/Installation/I.png)
+### 3. Enable USQL plugin in the plugin list![I.png](Image/Installation/I.png)
 
-5. Create nodes in the blueprint and use (Complete blueprint nodes_CreateUSQLObject)
+### 4. Create nodes in the blueprint and use (Complete blueprint nodes_CreateUSQLObject)
 
 ![II.png](Image/Installation/II.png)
 
@@ -48,25 +53,25 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 ## Node Annotation
 
-1.CreateUSQLObject
+### 1.CreateUSQLObject
 ![CreateUSQLObject.png](Image/Note/CreateUSQLObject.png)
 
-2.SELECT
+### 2.SELECT
 ![SELECT.png](Image/Note/SELECT.png)
 
-3.Query
+### 3.Query
 ![Query+Res.png](Image/Note/Query+Res.png)
 
-4.Stmt
+### 4.Stmt
 ![usql_I.png](Image/Note/usql_I.png)
 ![usql_II.png](Image/Note/usql_II.png)
 ![usql_III.png](Image/Note/usql_III.png)
 
 ## Complete blueprint nodes
 
-1. Blueprint Node Path：`..\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter`
+### 1. Blueprint Node Path：`..\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter`
    
-2. The image is too large and the preview may not display properly. Please download and watch it
+### 2. The image is too large and the preview may not display properly. Please download and watch it
 
 ![BP_I.png](https://github.com/YQX113/USQL/blob/df51479d5d8c8cdaba8cdcabc55b51ac73e93fe3/Image/Complete%20blueprint%20nodes/BP_I.png)
 
@@ -74,18 +79,34 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
 <br>
 
------
+---
 > [!NOTE]
-> · Required Runtime Libraries
->   The following runtime libraries must be available in the system: \
->      libmariadb.dll \
-       caching_sha2_password.dll \
->   These are included with MariaDB Connector/C and must be accessible via the PATH environment variable. \
-> · This plugin bundles the MariaDB client libraries for Windows 64-bit.
->   No separate installation of a MariaDB server is required to use the plugin itself.
->   However, to connect to a database, you need access to an existing MariaDB or MySQL server (local or remote). 
->   The server must be installed and configured independently. \
-> · Both sending and receiving data use utf8mb4 encoding \
-> · Please strictly follow the naming rules set by MariaDB official \
->   https://mariadb.com/docs/server/reference/sql-structure/sql-language-structure/identifier-names \
-> · One connection corresponds to one thread. If you need to perform parallel queries, please use the "Create USql Object" node to create a new connection for querying.
+> 
+> **Required Runtime Libraries**
+> 
+> The following runtime libraries must be available in the system:
+>
+> - `libmariadb.dll`
+> - `caching_sha2_password.dll`
+>
+> These libraries are included with **MariaDB Connector/C** and must be accessible through the **PATH environment variable**.
+>
+> ---
+>
+> **Encoding**
+>
+> Both sending and receiving data use **utf8mb4** encoding.
+>
+> ---
+>
+> **Naming Rules**
+>
+> Please strictly follow the official MariaDB naming rules:  
+> https://mariadb.com/docs/server/reference/sql-structure/sql-language-structure/identifier-names
+>
+> ---
+>
+> **Multithreading**
+>
+> One connection corresponds to **one thread**.  
+> If you need to perform parallel queries, please create a new connection using the **"Create USql Object"** node.
