@@ -69,9 +69,9 @@ Users must install MariaDB Connector/C separately in order to use database funct
 
 ## Complete blueprint nodes
 
-### 1. Blueprint Node Path：`..\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter`
+#### 1. Blueprint Node Path：`..\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter`
    
-### 2. The image is too large and the preview may not display properly. Please download and watch it
+#### 2. The image is too large and the preview may not display properly. Please download and watch it
 
 ![BP_I.png](https://github.com/YQX113/USQL/blob/df51479d5d8c8cdaba8cdcabc55b51ac73e93fe3/Image/Complete%20blueprint%20nodes/BP_I.png)
 
