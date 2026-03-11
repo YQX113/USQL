@@ -27,6 +27,7 @@ USQL is a C++ plugin that integrates MariaDB directly into Unreal Engine 5.
 
    1.3 After installation, locate the following directories (example):
    >C:\Program Files\MariaDB\lib
+   
    >C:\Program Files\MariaDB\lib\plugin
 
    1.4 Add the above directories to your system PATH environment variable.
