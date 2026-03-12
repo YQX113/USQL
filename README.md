@@ -15,7 +15,7 @@ Users must install MariaDB Connector/C separately in order to use database funct
 ## Supported Versions
 
 - Unreal Engine 5.6 – 5.7
-- MySQL 5.7+、MySQL 5.7+、MariaDB 10+
+- MySQL 5.7+、MySQL 8.0+、MariaDB 10+
 - Windows x64
 
 <br>
