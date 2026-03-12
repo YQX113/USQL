@@ -110,3 +110,10 @@ Users must install MariaDB Connector/C separately in order to use database funct
 >
 > One connection corresponds to **one thread**.  
 > If you need to perform parallel queries, please create a new connection using the **"Create USql Object"** node.
+> 
+> ---
+>
+> **FAB Purchase Link**
+> 
+> https://www.fab.com/listings/909fb9d9-e322-472b-856f-c987814918d6
+
